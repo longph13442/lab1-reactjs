@@ -26,7 +26,6 @@ function App() {
   }
   const winner = calculateWinner(board);
 
-
   return (
     <Container>
       <button className='reset' onClick={() => { setBoard(Array(9).fill(null)); setXPlayer(true) }}>Reset</button>
@@ -52,8 +51,6 @@ function Box(props) {
 function Text({ value, textColor }) {
   return <h3 style={{ color: textColor }} >{value}</h3>
 }
-
-
 
 
 function calculateWinner(board) {

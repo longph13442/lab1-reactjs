@@ -7,7 +7,7 @@ const Square = ({ value, handlePlay, winner }) => {
       return "green"
     }
     if (value == "x") {
-      return "yellow"
+      return "white"
     }
     if (value == "o") {
       return "gray"
